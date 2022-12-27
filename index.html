@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+       <div><img src="https://media.gettyimages.com/id/1196660849/photo/close-up-of-text-on-road-sign.jpg?s=612x612&w=0&k=20&c=D7Slc7jtWjHlGVO6xrllrfcIxcuMjhdbJzzeuKcE1Ds=" height="650px" width="600px"></div>
+       <div>
+        <div class="container2">
+            <form action="" onsubmit="return validation()">
+            <h1 id="donate">BLOOD DONATION FORM</h1>
+            <ul class="userInfo">
+                <li class="info" >
+                    First Name
+                    <input type="text" id="firstName" >
+                   <span id="usererror1"></span>
+                    Last name
+                    <input type="text" id="lastName" >
+                   <span id="usererror2"></span>
+                </li>
+                <li class="info"  >
+                    Enter Your Email-id
+                    <input type="text" id="email" >
+                    <span id="emailerror"></span>
+                </li>
+                <p class="userName"></p>
+                <li class="info" >
+                    Enter Your Phone Number
+                    <input type="number" id="phone" > 
+                    <span id="mobileerror"></span>
+                </li>
+                <p class="userName"></p>
+                 <li class="info"  >
+                Enter Your Date Of Birth
+                <input type="date"  id="age" >
+                <span id="usererror"></span>
+              </li>
+              
+                <li class="info" id="gender">
+                    Select your gender
+                    <input type="radio" name="gender">Male
+                    <input type="radio" name="gender">Female
+                    <input type="radio" name="gender">Others
+                </li>
+               
+                <!-- <li class="info" id="donate">
+                Is this first time donating
+                <input type="radio" name="donate">Yes
+                <input type="radio" name="donate">No
+               </li>  -->
+                <li class="info">
+                Select Your Blood Group
+                <select name="bloodGroup"   id="bloodGroup" >
+                    <option vlaue="oPsoitive">O+</option>
+                    <option vlaue="oNegative">O-</option>
+                    <option vlaue="APsoitive">A+</option>
+                    <option vlaue="ANegativee">A-</option>
+                    <option vlaue="bPsoitive">B+</option>
+                    <option vlaue="bnegAative">B-</option>
+                    <option vlaue="abPsoitive">AB+</option>
+                    <option vlaue="abNegative">AB-</option>
+                </select>
+                <span id="usererror"></span>
+               </li>
+              
+               <li class="info" >Address <br>
+                Street<input type="text" id="street" >  <p class="userName"></p>
+                Region<input type="text" id="region" >  <p class="userName"></p>
+                pincode<input type="number" id="pincode" >  <p class="userName"></p>
+                State
+                <select name="city" id="city" >
+                    <option value="delhi">Delhi</option>
+                    <option value="Uttar pradesh">Uttar pradesh</option>
+                    <option value="madhya pradesh">madhya pradesh</option>
+                    <option value="Gujraat">Gujraat</option>
+                    <option value="Bihar">Bihar</option>
+                    <option value="SIkkim">SIkkim</option>
+                    <option value="Tripura">Tripura</option>
+                    <option value="Goa">Goa</option>
+                </select>
+                <p class="userName"></p>
+                  </li>
+            </ul> 
+           <!-- <button id="btn" onclick="validate()">Submit</button> -->
+           <input type="submit" id="btn" value="submit">
+        </form>
+
+        </div>
+       
+        </div>
+        
+      
+       </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+}
+.container{
+    display: flex;
+    
+}
+.container2{
+    background-color: rgb(32, 32, 65);
+    width: 750px;
+    height: 650px;
+}
+#donate{
+    background-color: rgb(172, 153, 129);
+   
+    padding: 15px;
+    padding-left: 200px;
+}
+.userInfo{
+    margin-left: 70px;
+  margin-top: 25px;
+}
+.info{
+    margin: 25px;
+    font-size: 20px;
+    color: white;
+}
+#btn{
+    /* margin: 30px; */
+    margin-left: 600px;
+    /* margin-bottom: 200px; */
+    padding: 15px;
+    background-color: brown;
+    width: 90px;
+    border-radius: 10px;
+
+
+}
+#btn:hover{
+    cursor: pointer;
+    background-color: green;
+}
+.userName{
+    margin-bottom: 10px;
+}
+
